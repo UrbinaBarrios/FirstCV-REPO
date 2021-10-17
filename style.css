@@ -128,3 +128,49 @@ nav img {
   display: flex;
   width: 100%;
 }
+
+/*emepieza about me*/
+.about-me .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-heading {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0;
+  margin-bottom: 6rem;
+}
+.about-heading h1 {
+  font-size: 6rem;
+  opacity: 0.3;
+}
+.about-heading h6 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.profile-pic {
+  flex: 1;
+  margin-top: 3rem;
+  margin-right: 5rem;
+  margin-left: 0px;
+}
+
+.about-details {
+  flex: 1;
+}
+
+.about-details h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.about-details li,
+p {
+  font-size: 30px;
+  margin-right: 20px;
+}
+/*Termina about me */
