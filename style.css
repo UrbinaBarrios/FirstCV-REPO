@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Noto Sans Display", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  color: #eee;
+}
+
+/*emepieza reusable*/
+
+.container {
+  width: 90%;
+  max-width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section-header {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.section-header h1 {
+  font-size: 3.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.section-header h1::before,
+.section-header h1::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.section-header h1::before {
+  width: 10rem;
+  height: 3px;
+  border-radius: 0.8rem;
+}
+.section-header h1::after {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  bottom: -1rem;
+}
+.section-header h6 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+.has-margin-right {
+  margin-right: 5rem;
+}
+/*termina reusable*/
+
+.main-header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../Imagenes/bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+}
+
+nav img {
+  width: 50px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 2px 12px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: darkblue;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav-links ul li ::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li :hover::after {
+  width: 100%;
+}
