@@ -370,3 +370,33 @@ input[type="submit"]:hover {
   list-style: none;
 }
 /*Termina contact*/
+
+#prevbtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: red;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#nextbtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: red;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#thank-you-message {
+  display: none;
+}
+
+#thank-you-message.show {
+  display: block;
+}
