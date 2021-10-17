@@ -227,3 +227,93 @@ p {
 }
 
 /*Termina experience*/
+
+/*empieza skills*/
+
+.task {
+  position: relative;
+  height: 26px;
+  border-radius: 13px;
+  border: 2px solid #ddd;
+  width: 300px;
+  background: #eee;
+  margin: 10px 0 50px;
+}
+
+.progress {
+  position: relative;
+  top: -2px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 3px solid gray;
+  background: lightgray;
+}
+
+.progress-red {
+  background: #a93226;
+}
+.progress-orange {
+  background: #f5b041;
+}
+.progress-green {
+  background: #27ae60;
+}
+
+.tooltip {
+  position: relative;
+  bottom: -30px;
+  font-size: 0.8rem;
+  text-align: center;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+  word-spacing: -2px;
+}
+
+.task:hover .tooltip {
+  opacity: 1;
+}
+
+.iconos ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 3px;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.iconos ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.iconos ul li .fab {
+  font-size: 30px;
+  line-height: 60px;
+  transition: 0.6s;
+  color: #000;
+}
+.iconos ul li .fab:hover {
+  background-color: #fff;
+}
+
+.iconos ul li a {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.iconos ul li a:hover {
+  transform: translate(0, -10px);
+}
+
+/*Termina skills*/
