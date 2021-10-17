@@ -115,3 +115,16 @@ nav img {
 .nav-links ul li :hover::after {
   width: 100%;
 }
+
+.carousel-container {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 100px;
+  position: relative;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 100%;
+}
