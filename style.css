@@ -174,3 +174,56 @@ p {
   margin-right: 20px;
 }
 /*Termina about me */
+
+/*Empieza experience*/
+.experience-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.experience-img {
+  flex: 1;
+}
+
+.imageexp {
+  width: 100%;
+  height: auto;
+}
+
+.experience-description {
+  flex: 1;
+}
+
+.experience-description h6 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  opacity: 0.75;
+}
+
+.experience-description h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+.experience-description .cta {
+  display: inline-block;
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #f44336;
+  transition: color 650ms;
+}
+
+.experience-description .cta::hover {
+  color: lightcoral;
+}
+
+/*Termina experience*/
