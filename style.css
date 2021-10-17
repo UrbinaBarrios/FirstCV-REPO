@@ -317,3 +317,56 @@ p {
 }
 
 /*Termina skills*/
+
+/*Empieza contact*/
+
+form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+form label {
+  font-size: 2rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border: none;
+  outline-color: lightcoral;
+}
+
+input[type="submit"] {
+  width: initial;
+  background-color: #f44336;
+  color: #eee;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: background-color 650ms;
+}
+
+input[type="submit"]:hover {
+  color: #eee;
+  background-color: lightcoral;
+}
+
+#informacion {
+  margin-top: 10px;
+}
+
+.redes-sociales {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3rem;
+  color: #eee;
+  padding-bottom: 2cm;
+  list-style: none;
+}
+/*Termina contact*/
